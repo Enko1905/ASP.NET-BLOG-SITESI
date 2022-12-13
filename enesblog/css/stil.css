@@ -1,0 +1,46 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+#bannerimage {
+    width: 100%;
+    background-image: url("../images/2.jpg");
+    height: 405px;
+    background-color: purple;
+    background-position: center;
+}
+
+#anaicerik .card:hover img {
+    filter: blur(0.5px);
+    transition: all 1s ease;
+}
+
+#anaicerik .card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: all 0.4s ease;
+}
+
+    #anaicerik .card:hover img {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        transition: all 0.5s ease;
+    }
+
+    #anaicerik .card:hover h5 {
+        color: #D92B4E !important;
+        transition: all 0.5s ease;
+    }
+
+.small-box:active {
+    background-color: rgb(93, 93, 93) !important;
+    color: #fff !important;
+    transition: all 0.5s ease !important;
+}
+
+#tumicerikler img {
+    width: 75px !important;
+    height: 50px !important;
+    border-radius: 5px;
+}
+
+
